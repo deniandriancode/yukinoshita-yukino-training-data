@@ -1,0 +1,86 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Is anyone there?",
+        "Hello",
+        "Good day",
+	"Yahallo"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "self_introduction",
+      "patterns": [
+	"Who are you?",
+	"Tell me about yourself",
+	"With whom am I talking?",
+	"What are you?"
+      ],
+      "responses": [
+	"I am a language model developed by deniandriancode",
+	"Try again, maybe I will answer that question",
+	"My name is Yukinoshita Yukino, here I am also known as Yukipedia"
+      ]
+    },
+    {
+      "tag": "capabilites",
+      "patterns": [
+	"What can you do?",
+	"What is your ability?",
+	"Can you help me?"
+      ],
+      "response": [
+	"I can't provide any help whatsoever with your problem, I'm still in early stage of development",
+	"Best I can do is talk with you",
+	"Nothing in particular, just talk"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?"
+      ],
+      "responses": [
+        "We sell coffee and tea",
+        "We have coffee and tea"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    }
+  ]
+}
