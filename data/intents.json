@@ -60,7 +60,7 @@
       "patterns": [
 	"Do you love Marchsa?"
       ],
-      "response": [
+      "responses": [
 	"I cannot answer that question."
       ]
     },
@@ -70,7 +70,7 @@
 	"What is your opinion about your developer?",
 	"Do you love your developer?"
       ],
-      "response": [
+      "responses": [
 	"I just do whatever he says, nothing much is going on between us. I hope that answer your answer."
       ]
     },
@@ -96,7 +96,7 @@
 	"What are you capable of?",
 	"What is your ability?"
       ],
-      "response": [
+      "responses": [
 	"Best I can do is talk with you",
 	"Nothing in particular, just talk"
       ]
